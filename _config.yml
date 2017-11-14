@@ -4,9 +4,9 @@
 
 # Site
 title: 闰土的小黑屋
-subtitle:
-description: 我的实验室
-author: 闰土
+subtitle: 
+description: 闰土就是我啦，这里是我记录日常开发和生活一些博文的地方
+author: Runtu
 language: zh-Hans
 timezone:
 
@@ -28,6 +28,7 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
+# new_post_name: :title.md # File name of new posts
 new_post_name: :year-:month-:day-:title.md # File name of new posts
 default_layout: post
 titlecase: false # Transform title into titlecase
@@ -42,7 +43,16 @@ highlight:
   line_number: true
   auto_detect: false
   tab_replace:
-
+  
+# Home page setting
+# path: Root path for your blogs index page. (default = '')
+# per_page: Posts displayed per page. (0 = disable pagination)
+# order_by: Posts order. (Order by date descending by default)
+index_generator:
+  path: ''
+  per_page: 10
+  order_by: -date
+  
 # Category & Tag
 default_category: uncategorized
 category_map:
@@ -72,3 +82,9 @@ deploy:
   type: git
   repo: https://github.com/Runtu4378/Runtu4378.github.io.git
   branch: master
+
+# 为 hexo-admin 提供的属性
+admin:
+  username: runtu
+  password_hash: $2a$10$QMKoK7pj1Z3onZgsUgI9IOaF6E3ONLZxCM3yPZaDz5DgTbxEpJdA6
+  secret: huorunquan
