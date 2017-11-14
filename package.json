@@ -3,6 +3,7 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
+    "start": "hexo server -d",
     "local": "hexo clean && hexo g && hexo s --debug",
     "net": "hexo clean && hexo d -g"
   },
