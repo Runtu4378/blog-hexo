@@ -450,7 +450,7 @@ busuanzi_count:
 
 
 # Tencent analytics ID
-# tencent_analytics:
+tencent_analytics: 58881184
 
 # Tencent MTA ID
 # tencent_mta:
