@@ -80,7 +80,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/Runtu4378/Runtu4378.github.io.git
+  repo: git@github.com:Runtu4378/Runtu4378.github.io.git
   branch: master
 
 # 为 hexo-admin 提供的属性
